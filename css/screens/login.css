@@ -1,0 +1,42 @@
+.welcome-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0;
+    font-weight: 600;
+  }
+  
+  .welcome-header__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .welcome-header__text {
+    width: 50%;
+    opacity: 0.8;
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+  }
+  
+  #login-form input {
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  #login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  #login-form input:focus {
+    border-color: var(--yellow);
+  }
+  
